@@ -37,20 +37,16 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount }) => {
     >
       {/* Logo / Marca */}
       <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-        <div
+        <img
+          src="/lionsceller.png"
+          alt="Lion Sceller logo"
           style={{
             width: 100,
             height: 40,
             borderRadius: "999px",
-            background: 'url("./public/lion sceller.png") no-repeat center/cover',
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: 18,
-            fontWeight: 800,
+            objectFit: "cover",
           }}
-        >
-        </div>
+        />
         <div style={{ display: "flex", flexDirection: "column" }}>
           <span style={{ fontWeight: 700, fontSize: 18 }}>Lion Sceller</span>
           <span style={{ fontSize: 11, color: "#f9fafb" }}>
