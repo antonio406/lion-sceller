@@ -19,7 +19,7 @@ const products = [
     type: "adhesive",
     material: "transparente",
     description: "Cinta transparente de alta claridad ideal para empaques de presentación.",
-    price: 3.49,
+    price: 200,
     tag: "Más vendida",
   },
   {
@@ -28,7 +28,7 @@ const products = [
     type: "adhesive",
     material: "canela",
     description: "Cinta canela resistente para cajas de envío de alta seguridad.",
-    price: 2.99,
+    price: 300,
     tag: "Resistente",
   },
   {
@@ -37,7 +37,7 @@ const products = [
     type: "eco",
     material: "kraft-eco",
     description: "Cinta de papel kraft ecológica, 100% reciclable y amigable con el planeta.",
-    price: 4.25,
+    price: 250,
     tag: "Eco-Friendly",
   },
   {
@@ -46,7 +46,7 @@ const products = [
     type: "filament",
     material: "transparente",
     description: "Fleje de filamento ultra resistente para cargas pesadas y paletizado.",
-    price: 5.99,
+    price: 230,
     tag: "Alta tensión",
   },
 ];
