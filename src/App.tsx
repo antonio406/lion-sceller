@@ -342,7 +342,7 @@ function App() {
                       color: "#fecaca",
                     }}
                   >
-                    ${" "}
+                    ${""}
                     {product.price.toFixed(2)}
                   </div>
                 </div>
